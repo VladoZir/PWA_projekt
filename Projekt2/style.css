@@ -1,0 +1,136 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: wheat;
+    display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+}
+
+header {
+    background-color: #8d0606;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 10%;
+}
+
+.head_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-right: 10%;
+    margin-left: 10%;
+    color: wheat;
+}
+
+.logo {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+}
+.logo {
+    flex: 0 0 40%;
+}
+
+.navigacija {
+    flex: 1;
+    text-align: right;
+}
+
+header img{
+    width: 16%;
+    height: 16%;
+}
+
+header nav a {
+    text-decoration: none;
+    color: wheat;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+section {
+    margin-bottom: 3%;
+    display: flex;
+    flex-direction: column;
+}
+
+section h2 {
+    background-color: #8d0606;
+    color: wheat;
+    padding: 10px;
+    margin: 0;
+}
+
+.naslov {
+    flex: 0 0 10%;
+    background-color: #8d0606;
+    text-align: center;
+}
+
+.articles {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+article {
+    width: 30%;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+}
+
+article img {
+    width: 100%; 
+    height: auto;
+    max-height: 250px;
+}
+
+article h3 {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+article p {
+    font-size: 14px;
+    color: gray;
+}
+
+.article a {
+    color: black; 
+    text-decoration: none;
+}
+.article a:hover {
+    color: #ff4500;
+}
+
+footer {
+    background-color: #8d0606;
+    height: 50px;
+    text-align: center;
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    margin-top: auto;
+}
